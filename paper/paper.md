@@ -31,6 +31,12 @@ authors:
   - name: Hikaru Gyoji
     orcid: 
     affiliation: 3
+  - name: Julia Koblitz
+    orcid: 
+    affiliation: 7
+  - name: Pitiporn Noisagul(Sam)
+    orcid: 
+    affiliation: 5
 affiliations:
   - name: Camber
     index: 1
@@ -48,6 +54,9 @@ affiliations:
   - name: Database Center for Life Science (DBCLS)
     ror: 018q2r417
     index: 6
+  - name: Leibniz Institute DSMZ
+    ror: 
+    index: 7
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BioHackathon2025
@@ -62,13 +71,7 @@ git_url: https://github.com/biohackathon-japan/BH25-ai-survey/
 authors_short: Steinberg {et al.}
 ---
 
-# Introduction
-
-Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
-For authors you provide their names, their affiliations, and ideally their [ORCID](https://orcid.org/)
-identifier. For affiliations, the [Research Organization Registry](https://ror.org/) (ROR) identifier can be given.
-For example, this is the author information for this template:
-
+# AI in Practice: Insights from a Community Survey of Biohackathon Participants
 
 ## Introduction
 The rapid adoption of AI in life sciences and bioinformatics has created both opportunities and challenges for researchers, making it important to understand how AI is currently used in these communities. To address this, we created a survey that centers on Biohackathon participants, but also reaches members of the broader bioinformatics community through participants’ networks, capturing practices beyond the event itself. The survey gathers insights into the AI tools being used, the successes achieved, and the challenges faced, while also inviting participants to briefly review their current work to enable proper documentation and citation. We aim to gauge the current state of AI usage, highlight successes and challenges, and build a community-driven knowledge base to inform future AI development. By surveying attendees and their networks across diverse backgrounds (including Thai, Japanese, and English-speaking participants), we document AI usage, workflows, and challenges, providing a snapshot of current practices in the global bioinformatics community. Ultimately, this effort seeks to create a shared resource that both records ongoing AI research and fosters collaboration across the international life sciences community.
@@ -89,7 +92,8 @@ Figure 1: Survey schema
 ### Implementation Challenges
 The development and deployment of the survey faced several practical challenges. A key consideration was translation and localization, as the survey was offered in English, Japanese, and Thai, requiring careful adaptation of terminology to maintain clarity and cultural relevance. While responses were collected in multiple languages, analysis was ultimately conducted in English, necessitating careful translation back to preserve nuance and accuracy. Crafting inclusive demographic questions, particularly regarding age, gender, and field of work, posed additional complexity, as the goal was to balance sensitivity with the need for meaningful data. The survey also had to accommodate multiple objectives: capturing general patterns of AI usage while also allowing space for active researchers to share citations and contributions. On the technical side, form branching and accessibility required testing to ensure participants were directed to relevant questions without confusion. Finally, encouraging strong participation demanded proactive strategies, including leveraging participants’ bioinformatics networks at their institutions to circulate the survey more widely.
 
-## Respondents' demographic
+## Results
+### Respondents' demographic
 The survey captured responses from 105 participants with excellent response rates across demographic categories. About half of the surveys were conducted in English, about one-third in Japanese, and the rest was in Thai (Figure 2). The respondent pool demonstrated distinct geographic, professional, and demographic characteristics that contextualize the AI usage findings. 
 
 The sample showed strong Asia-Pacific representation (68.7%, n=68), with Japan (44.4%, n=44) and Thailand (23.2%, n=23) comprising two-thirds of respondents (Figure 3). European participants represented 22.2% (n=22), led by Germany (9.1%, n=9), while North American participation was limited (4.0%, n=4). This geographic concentration reflects the survey's distribution through BioHackathon networks, particularly the 2025 Japan event. This geographic concentration reflects the survey's distribution through BioHackathon networks, particularly the 2025 Japan event. Importantly, this distribution offers a valuable counterbalance to the majority of existing surveys and research in this field, which are often dominated by North American or Western European perspectives. By capturing insights from Asia-Pacific stakeholders, this survey provides a distinct and complementary viewpoint that broadens the global discourse and contributes perspectives that are often underrepresented in the literature.
@@ -104,7 +108,7 @@ These demographic patterns indicate the survey captured a geographically concent
 
 Respondents reported expertise spanning a wide range of domains, with the strongest representation in genomics and transcriptomics (n=50), sequence analysis (n=36), and data standards and interoperability (n=34) (Figure 8). Substantial engagement was also seen in database management (n=32), data visualization (n=28), and machine learning and AI (n=28), reflecting both biological and computational emphases. Other fields, such as metagenomics and microbiome informatics, medical/clinical informatics, and HPC and cloud bioinformatics, were also represented, while more specialized areas, including chemoinformatics, drug discovery and nanomedicine, and research software engineering, had fewer participants. Overall, the distribution highlights the multidisciplinary breadth of the community, combining traditional bioinformatics domains with emerging computational and translational fields.
 
-## AI usage and AI tools 
+### AI usage and AI tools
 
 The survey results on AI usage distribution show that 10 people are AI developers and researchers, 92 people are AI users and one is not an AI-user. Among the AI-users, the majority of respondents (61) reported using AI everyday, while another 23 use it a few times a week, and 8 use it a few times a month (Figure 9). Overall, this indicates that most participants are frequent AI users, with only a small minority not engaging with AI tools.
 
@@ -131,7 +135,7 @@ especially for Writing/Editing (47) and Translation (43).
 - **“Complete” (fully automated use)** is less common overall.
 Translation (24) and Coding (16) are relatively higher, but for Research (4), Brainstorming (5), and Teaching (3), the counts remain very low.
 
-## AI successes 
+### AI successes 
 
 From the 80 success cases reported, several recurring themes emerged:
 Coding and Database Support (21 cases): Participants frequently used AI for generating, debugging, or assisting in coding tasks, as well as database management.
@@ -143,7 +147,7 @@ Data Analysis and Curation (8 cases): AI-supported sample curation, dataset prep
 Agreements and Contracts (3 cases): AI facilitated comparison or drafting of agreements, such as Material Transfer Agreements.
 Survey respondents reported diverse success cases of AI usage, with the majority emphasizing assistance in coding/database tasks and efficiency improvements. Other noted benefits included proposal writing, data curation, and support with agreements. Overall, AI shows an undeniable ability to accelerate work and reduce the effort required for technical and administrative tasks.
 
-## AI challenges & "failures"
+### AI challenges & "failures"
 
 Survey Question:
 "When using AI tools in your work, what challenges have you faced? (Select all that apply)"
@@ -161,7 +165,7 @@ We analyzed responses from 105 participants based on the following multiple-choi
 
 Note that responses categorized as “Other” were excluded from the graphs, but they mentioned issues such as lack of training or support, network restrictions, unclear usage instructions, high learning costs, and concerns about reliability or privacy.
 
-### Regional patterns in AI-related concerns
+#### Regional patterns in AI-related concerns
 Across all examined regions, common concerns regarding the use of artificial intelligence (AI) emerged (Figure 12.1). Specifically, issues related to the accuracy and reliability of AI systems, the risk of over-reliance leading to human error, and ethical and privacy considerations were consistently reported as the most prominent concerns. These patterns were observed regardless of differences in sample size across regions, indicating their global relevance.
 
 When considering regional characteristics alongside sample sizes, distinct patterns were observed (Figure 12.2). English-speaking regions reported the highest absolute number of concerns. This likely reflects their comparatively high adoption rates of AI technologies, suggesting that their respondents may have more extensive experience with the challenges of AI integration. In contrast, Japan showed a notable emphasis on data-related limitations—including data size, quality, and accessibility. This pattern may reflect specific regulatory frameworks or cultural practices surrounding data management that are unique to Japan. Meanwhile, Thailand exhibited lower absolute counts but maintained similar proportional patterns to the other regions, suggesting that despite differences in sample size, the fundamental nature of concerns remains consistent.
@@ -203,12 +207,12 @@ Key Insights
 
 - Conversely, users who approached AI cautiously and with appropriate expectations encountered fewer problems, highlighting the importance of critical oversight and domain expertise when using AI tools.
 
-## Overall satisfaction with AI & AI improvement
+### Overall satisfaction with AI & AI improvement
 
-## Institution support
-### Kind of AI supports 
-## Perceptions of AI-related Harms 
-## Additional comments  
+### Institution support
+#### Kind of AI supports
+### Perceptions of AI-related Harms
+### Additional comments
 ## Conclusion
 
 
@@ -307,12 +311,6 @@ Possible CiTO typing annotation include:
 * citation: generic citation
 
 
-# Results
-
-
-# Discussion
-
-...
 
 ## Acknowledgements
 
