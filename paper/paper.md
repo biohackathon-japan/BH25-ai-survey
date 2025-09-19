@@ -1,47 +1,11 @@
 ---
-title: 'DBCLS BioHackathon 2025 report: Template for the very long title'
-title_short: 'BioHackJP25: How we found breakfast'
+title: 'AI in Practice: Insights from a Community Survey of Biohackathon Participants'
+title_short: 'BioHackthon 2025 AI Survey'
 tags:
-  - Semantic web
-  - Ontologies
-  - Workflows
-authors:
-  - name: First Author
-    affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
-    affiliation: 2
-affiliations:
-  - name: First Affiliation
-    index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
-    index: 2
-date: 15 September 2025
-cito-bibliography: paper.bib
-event: BH25JP
-biohackathon_name: "DBCLS BioHackathon 2025"
-biohackathon_url:   "https://2025.biohackathon.org/"
-biohackathon_location: "Mie, Japan, 2025"
-group: AI-survey 
-# URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
-# This is the short authors description that is used at the
-# bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
----
-
-# Introduction
-
-
-## Author information
-
-Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
-For authors you provide their names, their affiliations, and ideally their [ORCID](https://orcid.org/)
-identifier. For affiliations, the [Research Organization Registry](https://ror.org/) (ROR) identifier can be given.
-For example, this is the author information for this template:
-
-```yaml
+  - AI Survey
+  - AI Usage
+  - Bioinformatics
+  - Biohackathon
 authors:
   - name: David Steinberg
     affiliation: 1
@@ -57,7 +21,7 @@ authors:
     orchid: 0000-0002-3274-5475
   - name: Nattawet Sriwichai
     affiliation: 5
-    orchid: 
+    orchid: 0000-0002-5844-4689
   - name: Susumu Goto
     affiliation: 6
     orcid: 
@@ -70,17 +34,40 @@ authors:
 affiliations:
   - name: Camber
     index: 1
-  - name: Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand
+  - name: Mahidol University
+    ror: 01znkr924
     index: 2
-  - name: PENQE inc., Japan
+  - name: PENQE inc.
     index: 3
-  - name: Kasetsart University, Thailand
+  - name: Kasetsart University
+    ror: 05gzceg21
     index: 4
-  - name: Chiang Mai University, Thailand
+  - name: Chiang Mai University
+    ror: 05m2fqn25
     index: 5
-  - name: Database Center for Life Science (DBCLS), Japan
+  - name: Database Center for Life Science (DBCLS)
+    ror: 018q2r417
     index: 6
-```
+date: 18 September 2025
+cito-bibliography: paper.bib
+event: BioHackathon2025
+biohackathon_name: "DBCLS BioHackathon 2025"
+biohackathon_url: "https://2025.biohackathon.org/"
+biohackathon_location: "Mie, Japan, 2025"
+group: Biomedical
+# URL to project git repo --- should contain the actual paper.md:
+git_url: https://github.com/biohackathon-japan/BH25-ai-survey/
+# This is the short authors description that is used at the
+# bottom of the generated paper (typically the first two authors):
+authors_short: Steinberg {et al.}
+---
+
+# Introduction
+
+Information about the authors is given in the [YAML](https://en.wikipedia.org/wiki/YAML) format at the top of this template.
+For authors you provide their names, their affiliations, and ideally their [ORCID](https://orcid.org/)
+identifier. For affiliations, the [Research Organization Registry](https://ror.org/) (ROR) identifier can be given.
+For example, this is the author information for this template:
 
 
 ## Introduction
@@ -129,7 +116,7 @@ A recent exploration of AI tool usage reveals that ChatGPT is the most mentioned
 
 We conducted a survey to examine how AI is used across seven types of tasks—Coding, Research, Brainstorming, Writing/Editing, Teaching & Curriculum, Translation, and Personal—with responses categorized into three usage types: assist, draft, and complete. “Assist” represents using AI for a specific part of a task; “draft” represents AI making the first draft, which the respondent would edit and finalize; “complete” means AI making the complete product with little to no edit after. 
 
-Across task categories, respondents most often used AI to assist with work (red), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (blue) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 11).  
+Across task categories, respondents most often used AI to assist with work (blue), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (red) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 11).  
 
 ![Figure 11: Tasks and How They Use AI](images/Fig11.png)
 
@@ -137,12 +124,12 @@ To filter by Country, Age, and Gender, you can check the following link.
 [Tasks and How They Use AI: Filterable Bar Chart](https://yukikonoda.github.io/ai-survey/#)
 
 #### Key takeaways from the data
-- Overall, the use of “assist” (partial support) is the most common.
-For example: Research (54), Brainstorming (50), Writing/Editing (48).
-- “Draft” (first draft generation) is also frequently chosen.
-Especially for Translation (48) and Writing/Editing (43).
-- “Complete” (fully automated use) is less common, though Translation (20) is somewhat higher.
-For Coding, Research, Brainstorming, and Teaching, the counts remain in the single digits.
+- Overall, the use of **“assist” (partial support)** is the most common.
+For example: Research (45), Brainstorming (46), Writing/Editing (38), Personal (38).
+- “**Draft” (first draft generation)** is also frequently chosen,
+especially for Writing/Editing (47) and Translation (43).
+- **“Complete” (fully automated use)** is less common overall.
+Translation (24) and Coding (16) are relatively higher, but for Research (4), Brainstorming (5), and Teaching (3), the counts remain very low.
 
 ## AI successes 
 
