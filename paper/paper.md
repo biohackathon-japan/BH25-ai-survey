@@ -30,7 +30,7 @@ authors:
   - name: Julia Koblitz
     orcid: 0000-0002-7260-2129
     affiliation: 7
-  - name: Pitiporn Noisagul(Sam)
+  - name: Pitiporn Noisagul
     orcid: 0000-0001-5351-9998
     affiliation: 5
 affiliations:
@@ -63,7 +63,7 @@ group: Biomedical
 git_url: https://github.com/biohackathon-japan/BH25-ai-survey/
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: David Steinberg \emph{et al.}
+authors_short: Steinberg D \emph{et al.}
 ---
 
 
@@ -80,7 +80,7 @@ To streamline data collection and encourage engagement, the survey emphasized co
 By combining quantitative questions with qualitative reflections, the survey was designed to capture both concrete technical details (e.g., tools and workflows) and higher-level considerations such as societal impacts, ethical concerns, and organizational support. This multi-faceted approach aimed to generate a comprehensive snapshot of AI usage, challenges, and opportunities in bioinformatics, providing both immediate insights for the Biohackathon community and a resource for the wider international field.
 The survey schema is presented in Figure 1. 
 
-![Figure 1: Survey schema](./paper/images/Fig1.png)
+![Figure 1: Survey schema](./images/Fig1.png)
 
 Figure 1: Survey schema
 
