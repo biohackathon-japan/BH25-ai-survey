@@ -129,7 +129,9 @@ A recent exploration of AI tool usage reveals that ChatGPT is the most mentioned
 
 We conducted a survey to examine how AI is used across seven types of tasks—Coding, Research, Brainstorming, Writing/Editing, Teaching & Curriculum, Translation, and Personal—with responses categorized into three usage types: assist, draft, and complete. “Assist” represents using AI for a specific part of a task; “draft” represents AI making the first draft, which the respondent would edit and finalize; “complete” means AI making the complete product with little to no edit after. 
 
-Across task categories, respondents most often used AI to assist with work (red), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (blue) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 11).
+Across task categories, respondents most often used AI to assist with work (red), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (blue) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 11).  
+
+![Figure 11: Tasks and How They Use AI](images/Fig11.png)
 
 To filter by Country, Age, and Gender, you can check the following link.  
 [Tasks and How They Use AI: Filterable Bar Chart](https://yukikonoda.github.io/ai-survey/#)
