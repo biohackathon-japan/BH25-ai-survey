@@ -9,33 +9,29 @@ tags:
 authors:
   - name: David Steinberg
     affiliation: 1
-    orchid: 0000-0001-6683-2270
+    orcid: 0000-0001-6683-2270
   - name: Chatarin Wangsanuwat
     affiliation: 2
-    orchid: 0000-0001-8228-2387
+    orcid: 0000-0001-8228-2387
   - name: Lucas Feriau
     affiliation: 3
-    orchid:
   - name: Pumipat Tongyoo
     affiliation: 4
-    orchid: 0000-0002-3274-5475
+    orcid: 0000-0002-3274-5475
   - name: Nattawet Sriwichai
     affiliation: 5
-    orchid: 0000-0002-5844-4689
+    orcid: 0000-0002-5844-4689
   - name: Susumu Goto
     affiliation: 6
-    orcid: 
   - name: Yukiko Noda
-    orcid: 
     affiliation: 3
   - name: Hikaru Gyoji
-    orcid: 
     affiliation: 3
   - name: Julia Koblitz
-    orcid: 
+    orcid: 0000-0002-7260-2129
     affiliation: 7
   - name: Pitiporn Noisagul(Sam)
-    orcid: 
+    orcid: 0000-0001-5351-9998
     affiliation: 5
 affiliations:
   - name: Camber
@@ -55,11 +51,10 @@ affiliations:
     ror: 018q2r417
     index: 6
   - name: Leibniz Institute DSMZ
-    ror: 
     index: 7
 date: 18 September 2025
 cito-bibliography: paper.bib
-event: BioHackathon2025
+event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url: "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
@@ -68,10 +63,9 @@ group: Biomedical
 git_url: https://github.com/biohackathon-japan/BH25-ai-survey/
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: Steinberg {et al.}
+authors_short: David Steinberg \emph{et al.}
 ---
 
-# AI in Practice: Insights from a Community Survey of Biohackathon Participants
 
 ## Introduction
 The rapid adoption of AI in life sciences and bioinformatics has created both opportunities and challenges for researchers, making it important to understand how AI is currently used in these communities. To address this, we created a survey that centers on Biohackathon participants, but also reaches members of the broader bioinformatics community through participants’ networks, capturing practices beyond the event itself. The survey gathers insights into the AI tools being used, the successes achieved, and the challenges faced, while also inviting participants to briefly review their current work to enable proper documentation and citation. We aim to gauge the current state of AI usage, highlight successes and challenges, and build a community-driven knowledge base to inform future AI development. By surveying attendees and their networks across diverse backgrounds (including Thai, Japanese, and English-speaking participants), we document AI usage, workflows, and challenges, providing a snapshot of current practices in the global bioinformatics community. Ultimately, this effort seeks to create a shared resource that both records ongoing AI research and fosters collaboration across the international life sciences community.
@@ -213,104 +207,13 @@ Key Insights
 #### Kind of AI supports
 ### Perceptions of AI-related Harms
 ### Additional comments
+
 ## Conclusion
+The survey provides a comprehensive snapshot of AI usage, successes, and challenges within the bioinformatics community, particularly among Biohackathon participants and their networks. Key findings include the widespread adoption of AI tools like ChatGPT for coding assistance and efficiency improvements, alongside significant concerns about accuracy, reliability, and ethical considerations. The demographic analysis highlights a geographically concentrated but professionally diverse respondent pool, with strong representation from Asia-Pacific regions.
 
+# Discussion
 
-
-
-
-
-# Formatting
-
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
-
-## Subsection level 2
-
-Please keep sections to a maximum of only two levels.
-
-## Tables
-
-Tables can be added in the following way, though alternatives are possible:
-
-```markdown
-Table: Note that table caption is automatically numbered and should be
-given before the table itself.
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-```
-
-This gives:
-
-Table: Note that table caption is automatically numbered and should be
-given before the table itself.
-
-| Header 1 | Header 2 |
-| -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
-
-## Figures
-
-A figure is added with:
-
-```markdown
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
-```
-
-This gives:
-
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
-
-Figures can be scaled by adding the width or height to the Markdown like this:
-
-```markdown
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png){ width=50px }
-```
-
-# Other main section on your manuscript level 1
-
-Lists can be added with:
-
-1. Item 1
-2. Item 2
-
-# Citation Typing Ontology annotation
-
-You can use [CiTO](http://purl.org/spar/cito/2018-02-12) annotations, as explained in [this BioHackathon Europe 2021 write up](https://raw.githubusercontent.com/biohackrxiv/bhxiv-metadata/main/doc/elixir_biohackathon2021/paper.md) and [this CiTO Pilot](https://www.biomedcentral.com/collections/cito).
-Using this template, you can cite an article and indicate _why_ you cite that article, for instance DisGeNET-RDF [@citesAsAuthority:Queralt2016].
-
-The syntax in Markdown is as follows: a single intention annotation looks like
-`[@usesMethodIn:Krewinkel2017]`; two or more intentions are separated
-with colons, like `[@extends:discusses:Nielsen2017Scholia]`. When you cite two
-different articles, you use this syntax: `[@citesAsDataSource:Ammar2022ETL; @citesAsDataSource:Arend2022BioHackEU22]`.
-
-Possible CiTO typing annotation include:
-
-* citesAsDataSource: when you point the reader to a source of data which may explain a claim
-* usesDataFrom: when you reuse somehow (and elaborate on) the data in the cited entity
-* usesMethodIn
-* citesAsAuthority
-* citesAsEvidence
-* citesAsPotentialSolution
-* citesAsRecommendedReading
-* citesAsRelated
-* citesAsSourceDocument
-* citesForInformation
-* confirms
-* documents
-* providesDataFor
-* obtainsSupportFrom
-* discusses
-* extends
-* agreesWith
-* disagreesWith
-* updates
-* citation: generic citation
-
-
+...
 
 ## Acknowledgements
 
