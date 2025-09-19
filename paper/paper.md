@@ -117,7 +117,7 @@ We conducted a survey to examine how AI is used across seven types of tasks—Co
 
 Across task categories, respondents most often used AI to assist with work (blue), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (red) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 11).  
 
-![Figure 11: Tasks and How They Use AI](./paper/images/Fig11.png)
+![Figure 11: Tasks and How They Use AI](./images/Fig11.png)
 
 To filter by Country, Age, and Gender, you can check the following link.  
 [Tasks and How They Use AI: Filterable Bar Chart](https://yukikonoda.github.io/ai-survey/#)
