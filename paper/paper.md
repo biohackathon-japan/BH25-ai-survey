@@ -23,7 +23,7 @@ event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url:   "https://2025.biohackathon.org/"
 biohackathon_location: "Mie, Japan, 2025"
-group: YOUR-PROJECT-NAME-GOES-HERE
+group: AI-survey 
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-japan/bh25-bhxiv-template
 # This is the short authors description that is used at the
@@ -33,7 +33,7 @@ authors_short: First Author \emph{et al.}
 
 # Introduction
 
-As part of the DBCLS BioHackathon 2025, we here report...
+The rapid adoption of AI in life sciences and bioinformatics has created both opportunities and challenges for researchers, making it important to understand how AI is currently used in these communities. While our study centers on Biohackathon participants, the survey also reaches members of the broader bioinformatics community through participants’ networks, capturing practices beyond the event itself. The survey gathers insights into the AI tools being used, the successes achieved, and the challenges faced, while also inviting participants to briefly review their current work to enable proper documentation and citation. We aim to gauge the current state of AI usage, highlight successes and challenges, and build a community-driven knowledge base to inform future AI development. By surveying attendees and their networks across diverse backgrounds (including Thai, Japanese, and English-speaking participants), we document AI usage, workflows, and challenges, providing a snapshot of current practices in the global bioinformatics community. Ultimately, this effort seeks to create a shared resource that both records ongoing AI research and fosters collaboration across the international life sciences community.
 
 ## Author information
 
@@ -44,17 +44,43 @@ For example, this is the author information for this template:
 
 ```yaml
 authors:
-  - name: First Author
+  - name: David Steinberg
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+    orchid: 0000-0001-6683-2270
+  - name: Chatarin Wangsanuwat
     affiliation: 2
+    orchid: 0000-0001-8228-2387
+  - name: Lucas Feriau
+    affiliation: 3
+    orchid:
+  - name: Pumipat Tongyoo
+    affiliation: 4
+    orchid: 0000-0002-3274-5475
+  - name: Nattawet Sriwichai
+    affiliation: 5
+    orchid: 
+  - name: Susumu Goto
+    affiliation: 6
+    orcid: 
+  - name: Yukiko Noda
+    orcid: 
+    affiliation: 3
+  - name: Hikaru Gyoji
+    orcid: 
+    affiliation: 3
 affiliations:
-  - name: First Affiliation
+  - name: Camber
     index: 1
-  - name: ELIXIR Europe
-    ror: 044rwnt51
+  - name: Faculty of Medicine Siriraj Hospital, Mahidol University, Thailand
     index: 2
+  - name: PENQE inc., Japan
+    index: 3
+  - name: Kasetsart University, Thailand
+    index: 4
+  - name: Chiang Mai University, Thailand
+    index: 5
+  - name: Database Center for Life Science (DBCLS), Japan
+    index: 6
 ```
 
 # Formatting
