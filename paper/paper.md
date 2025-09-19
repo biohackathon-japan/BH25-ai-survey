@@ -139,10 +139,8 @@ To filter by Country, Age, and Gender, you can check the following link.
 #### Key takeaways from the data
 - Overall, the use of “assist” (partial support) is the most common.
 For example: Research (54), Brainstorming (50), Writing/Editing (48).
-
 - “Draft” (first draft generation) is also frequently chosen.
 Especially for Translation (48) and Writing/Editing (43).
-
 - “Complete” (fully automated use) is less common, though Translation (20) is somewhat higher.
 For Coding, Research, Brainstorming, and Teaching, the counts remain in the single digits.
 
