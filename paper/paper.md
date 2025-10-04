@@ -116,15 +116,17 @@ The sample skewed toward mid-career professionals (n=58), with 36 respondents ag
 
 ![Age group distribution of the survey respondents](./images/Fig5-age-response.png)
 
-![BioHackathon participant ](./images/Fig7-participant-type-response.png)
+![](./images/Fig6-gender-response.png)
 
 Two-thirds of respondents (66.3%, n=69) reported prior involvement in BioHackathon, including half of the total sample (50.0%, n=52) who participated in the 2025 Japan event (Figure 7). More than a quarter (26.9%, n=28) were first-time participants, reflecting successful community expansion. At the same time, over one-third (33.7%, n=35) had not attended a BioHackathon, ensuring that perspectives extended beyond the immediate network.
 
-![Research filed among participants](./images/Fig8-interested-field-response.png)
+![BioHackathon participant ](./images/Fig7-participant-type-response.png)
 
 These demographic patterns indicate the survey captured a geographically concentrated but professionally diverse scientific community. The Asia-Pacific focus and academic orientation provide important context for interpreting AI adoption patterns and usage preferences in this specialized research community.
 
 Respondents reported expertise spanning a wide range of domains, with the strongest representation in genomics and transcriptomics (n=50), sequence analysis (n=36), and data standards and interoperability (n=34) (Figure 8). Substantial engagement was also seen in database management (n=32), data visualization (n=28), and machine learning and AI (n=28), reflecting both biological and computational emphases. Other fields, such as metagenomics and microbiome informatics, medical/clinical informatics, and HPC and cloud bioinformatics, were also represented, while more specialized areas, including chemoinformatics, drug discovery and nanomedicine, and research software engineering, had fewer participants. Overall, the distribution highlights the multidisciplinary breadth of the community, combining traditional bioinformatics domains with emerging computational and translational fields.
+
+![Research filed among participants](./images/Fig8-interested-field-response.png)
 
 ### AI usage and AI tools
 
