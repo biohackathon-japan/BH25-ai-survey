@@ -57,8 +57,8 @@ cito-bibliography: paper.bib
 event: BH25JP
 biohackathon_name: "DBCLS BioHackathon 2025"
 biohackathon_url: "https://2025.biohackathon.org/"
-biohackathon_location: "Mie, Japan, 2025"
-group: Biomedical
+biohackathon_location: "Mie, Japan"
+group: BH25-ai-survey
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-japan/BH25-ai-survey/
 # This is the short authors description that is used at the
@@ -76,7 +76,8 @@ The rapid adoption of AI in life sciences and bioinformatics has created both op
 While our study centers on Biohackathon participants, the survey also reaches members of the broader bioinformatics community through participants’ networks, capturing practices beyond the event itself. The survey gathers insights into the AI tools being used, the successes achieved, and the challenges faced, while also inviting participants to briefly review their current work to enable proper documentation and citation. We aim to gauge the current state of AI usage, highlight successes and challenges, and build a community-driven knowledge base to inform future AI development. By surveying attendees and their networks across diverse backgrounds (including Thai, Japanese, and English-speaking participants), we document AI usage, workflows, and challenges, providing a snapshot of current practices in the global bioinformatics community. Ultimately, this effort seeks to create a shared resource that both records ongoing AI research and fosters collaboration across the international life sciences community.
 
 
-## Survey Design and Development
+## Materials and Methods
+### Survey Design and Development
 
 The survey originated from community discussions at the Biohackathon, where participants identified the need to better understand how AI is being adopted, applied, and critically evaluated within the life sciences and bioinformatics. The aim was not only to document current practices but also to create a shared knowledge base that could support the broader bioinformatics community.
 
@@ -189,7 +190,6 @@ Many participants reported that AI forgets earlier context, contradicts itself, 
 - Positive Experiences
 A subset of respondents reported no major failures, particularly when they used AI cautiously and maintained realistic expectations. These users tended to cross-check results before applying them.
 
-#### Key Insights
 This analysis suggests that AI failures primarily stem from fundamental limitations in reasoning, context retention, and output reliability. The most commonly reported problems were: hallucination,poor prompting, and technical inaccuracies. Conversely, users who approached AI cautiously and with appropriate expectations encountered fewer problems, highlighting the importance of critical oversight and domain expertise when using AI tools.
 
 ### Overall satisfaction with AI & AI improvement
