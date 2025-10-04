@@ -116,7 +116,7 @@ The sample skewed toward mid-career professionals (n=58), with 36 respondents ag
 
 ![Age group distribution of the survey respondents](./images/Fig5-age-response.png)
 
-![](./images/Fig6-gender-response.png)
+![Gender distribution of the survey respondents](./images/Fig6-gender-response.png)
 
 Two-thirds of respondents (66.3%, n=69) reported prior involvement in BioHackathon, including half of the total sample (50.0%, n=52) who participated in the 2025 Japan event (Figure 7). More than a quarter (26.9%, n=28) were first-time participants, reflecting successful community expansion. At the same time, over one-third (33.7%, n=35) had not attended a BioHackathon, ensuring that perspectives extended beyond the immediate network.
 
