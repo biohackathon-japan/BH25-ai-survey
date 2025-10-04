@@ -252,4 +252,3 @@ Despite these contributions, the study has limitations. The sample size (N=105) 
 We would like to thank Database Center for Life Science (DBCLS) for hosting the 2025 BioHackathon. We would also like to thank DBCLS and Hub of Talents for Thailand Bioinformatics Research Network for funding support for CW, PT, NS, PN. 
 
 ## References
-\bibliographystyle{unsrt}
