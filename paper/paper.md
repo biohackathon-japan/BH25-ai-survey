@@ -7,10 +7,10 @@ tags:
   - Bioinformatics
   - Biohackathon
 authors:
-  - name: Lucas Feriau*
-    affiliation: 1
-  - name: Nattawet Sriwichai*
-    affiliation: 2
+  - name: Lucas Feriau
+    affiliation: 1, 8
+  - name: Nattawet Sriwichai
+    affiliation: 2, 8
     orcid: 0000-0002-5844-4689
   - name: Pumipat Tongyoo
     affiliation: 3
@@ -28,33 +28,34 @@ authors:
     orcid: 0000-0001-5351-9998
     affiliation: 2
   - name: David Steinberg**
-    affiliation: 6
+    affiliation: 6, 9
     orcid: 0000-0001-6683-2270
   - name: Chatarin Wangsanuwat**
-    affiliation: 7
+    affiliation: 7, 9
     orcid: 0000-0001-8228-2387
 affiliations:
-  - name: Camber
-    index: 6
-  - name: Mahidol University
-    ror: 01znkr924
-    index: 7
   - name: PENQE inc.
     index: 1
-  - name: Kasetsart University
-    ror: 05gzceg21
-    index: 3
   - name: Chiang Mai University
     ror: 05m2fqn25
     index: 2
+  - name: Kasetsart University
+    ror: 05gzceg21
+    index: 3
   - name: Database Center for Life Science (DBCLS)
     ror: 018q2r417
     index: 4
   - name: Leibniz Institute DSMZ
     index: 5
-notes:
-  - "* Authors contributed equally"
-  - "** Corresponding authors: Chatarin Wangsanuwat and David Steinberg"
+  - name: Camber
+    index: 6
+  - name: Mahidol University
+    ror: 01znkr924
+    index: 7
+  - name: Authors contributed equally
+    index: 8
+  - name: Corresponding authors
+    index: 9
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
