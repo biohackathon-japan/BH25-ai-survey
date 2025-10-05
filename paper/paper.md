@@ -215,7 +215,7 @@ Workers of the EU, US and other countries indicate little to no support from the
 
 Respondents that indicated a good to very good institutional support level for AI usage (4-5) also tend to express a higher level of satisfaction with AI. While the distribution of satisfied to very satisfied respondents only account for 50% and a little more on average for those who indicated an insufficient to neutral level of institutional support (1-3), it jumps up to more than 80% for respondents with a good to very good institutional support (4-5) (Figure 5C).
 
-![Analysis of Institutional Support.](./images/FI_survey_main_figures.005.png)
+![Analysis of Institutional Support.](./images/AI_survey_main_figures.005.png)
 Figure 6: Analysis of Institutional Support.
 (A) Support level by language group
 (B) Support level by institution type
