@@ -8,50 +8,50 @@ tags:
   - Biohackathon
 authors:
   - name: Lucas Feriau*
-    affiliation: 3
+    affiliation: 1
   - name: Nattawet Sriwichai*
-    affiliation: 5
+    affiliation: 2
     orcid: 0000-0002-5844-4689
   - name: Pumipat Tongyoo
-    affiliation: 4
+    affiliation: 3
     orcid: 0000-0002-3274-5475
   - name: Susumu Goto
-    affiliation: 6
+    affiliation: 4
   - name: Yukiko Noda
-    affiliation: 3
+    affiliation: 1
   - name: Hikaru Gyoji
-    affiliation: 3
+    affiliation: 1
   - name: Julia Koblitz
     orcid: 0000-0002-7260-2129
-    affiliation: 7
+    affiliation: 5
   - name: Pitiporn Noisagul
     orcid: 0000-0001-5351-9998
-    affiliation: 5
+    affiliation: 2
   - name: David Steinberg**
-    affiliation: 1
+    affiliation: 6
     orcid: 0000-0001-6683-2270
   - name: Chatarin Wangsanuwat**
-    affiliation: 2
+    affiliation: 7
     orcid: 0000-0001-8228-2387
 affiliations:
   - name: Camber
-    index: 1
+    index: 6
   - name: Mahidol University
     ror: 01znkr924
-    index: 2
+    index: 7
   - name: PENQE inc.
-    index: 3
+    index: 1
   - name: Kasetsart University
     ror: 05gzceg21
-    index: 4
+    index: 3
   - name: Chiang Mai University
     ror: 05m2fqn25
-    index: 5
+    index: 2
   - name: Database Center for Life Science (DBCLS)
     ror: 018q2r417
-    index: 6
+    index: 4
   - name: Leibniz Institute DSMZ
-    index: 7
+    index: 5
 notes:
   - "* Authors contributed equally"
   - "** Corresponding authors: Chatarin Wangsanuwat and David Steinberg"
