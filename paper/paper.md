@@ -33,8 +33,6 @@ authors:
   - name: Chatarin Wangsanuwat**
     affiliation: 2
     orcid: 0000-0001-8228-2387
-* Authors contributed equally
-** Corresponding authors: Chatarin Wangsanuwat and David Steinberg  
 affiliations:
   - name: Camber
     index: 1
@@ -54,6 +52,9 @@ affiliations:
     index: 6
   - name: Leibniz Institute DSMZ
     index: 7
+notes:
+  - "* Authors contributed equally"
+  - "** Corresponding authors: Chatarin Wangsanuwat and David Steinberg"
 date: 18 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
