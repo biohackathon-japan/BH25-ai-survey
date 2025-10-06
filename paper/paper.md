@@ -34,22 +34,22 @@ authors:
     affiliation: 7, 9
     orcid: 0000-0001-8228-2387
 affiliations:
-  - name: PENQE inc.
+  - name: PENQE inc., Japan 
     index: 1
-  - name: Chiang Mai University
+  - name: Chiang Mai University, Thailand
     ror: 05m2fqn25
     index: 2
-  - name: Kasetsart University
+  - name: Kasetsart University, Thailand
     ror: 05gzceg21
     index: 3
-  - name: Database Center for Life Science (DBCLS)
+  - name: Database Center for Life Science (DBCLS), Japan
     ror: 018q2r417
     index: 4
-  - name: Leibniz Institute DSMZ
+  - name: Leibniz Institute DSMZ, Germany
     index: 5
-  - name: Camber
+  - name: Camber, USA
     index: 6
-  - name: Mahidol University
+  - name: Mahidol University, Thailand
     ror: 01znkr924
     index: 7
   - name: Authors contributed equally
