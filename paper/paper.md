@@ -27,10 +27,10 @@ authors:
   - name: Pitiporn Noisagul
     orcid: 0000-0001-5351-9998
     affiliation: 2
-  - name: David Steinberg**
+  - name: David Steinberg
     affiliation: 6, 9
     orcid: 0000-0001-6683-2270
-  - name: Chatarin Wangsanuwat**
+  - name: Chatarin Wangsanuwat
     affiliation: 7, 9
     orcid: 0000-0001-8228-2387
 affiliations:
@@ -119,7 +119,7 @@ These demographic patterns indicate the survey captured a geographically concent
 Respondents reported expertise spanning a wide range of domains, with the strongest representation in genomics and transcriptomics (n=50), sequence analysis (n=36), and data standards and interoperability (n=34) (Figure 2G). Substantial engagement was also seen in database management (n=32), data visualization (n=28), and machine learning and AI (n=28), reflecting both biological and computational emphases. Other fields, such as metagenomics and microbiome informatics, medical/clinical informatics, and HPC and cloud bioinformatics, were also represented, while more specialized areas, including chemoinformatics, drug discovery and nanomedicine, and research software engineering, had fewer participants. Overall, the distribution highlights the multidisciplinary breadth of the community, combining traditional bioinformatics domains with emerging computational and translational fields.
 
 ![Respondent Demographics.](./images/AI_survey_main_figures.001.png)
-Figure 2: Respondent Demographics. Combine the demographic plots into a single figure with multiple panels (A-G).
+Figure 2: Respondent Demographics. 
 (A) Primary language preference
 (B) Geographic distribution 
 (C) Institutional affiliation 
@@ -136,9 +136,9 @@ There is only one person in the survey who reported not using AI, and the reason
 
 Participants reported using AI across several areas. Data infrastructure and interoperability includes integrating databases and knowledge graphs with LLMs, as well as converting dataset descriptions into RDF for life sciences [@citesAsEvidence:Steinberg2024]. Data annotation and enrichment efforts range from semi-automatic annotation pipelines in microbiology to microbial trait prediction for database expansion [@citesAsEvidence:Koblitz2025]. AI is also applied to biological function, specifically protein function prediction [@citesAsEvidence:Kulmanov2024] A major theme is health and health care,  spanning prognosis of diabetic kidney disease, epidemiological and biological data analysis [@citesAsEvidence:Chida2025], and AI architectures supporting mental health care. Lastly, some participants focus on method development and benchmarking, including AI agents for science, deep learning for data analysis, and establishing standards for ML/AI applications.
 
-A recent exploration of AI tool usage reveals that ChatGPT is the most mentioned tool (56), followed by Gemini (25) and Claude (9) (Figure 3B, Table 1). The table includes GitHub Copilot, DeepL, and various others, each receiving fewer answers. This pattern underscores ChatGPT’s dominant position in the community while also reflecting growing diversification in AI tool adoption (Figure 3B).
+A recent exploration of AI tool usage reveals that ChatGPT is the most mentioned tool (56), followed by Gemini (25) and Claude (9) (Figure 3B). The table includes GitHub Copilot, DeepL, and various others, each receiving fewer answers. This pattern underscores ChatGPT’s dominant position in the community while also reflecting growing diversification in AI tool adoption.
 
-We conducted a survey to examine how AI is used across seven types of tasks: Coding, Research, Brainstorming, Writing/Editing, Teaching & Curriculum, Translation, and Personal use, with responses categorized into three usage types: assist, draft, and complete. “Assist” represents using AI for a specific part of a task; “draft” represents AI making the first draft, which the respondent would edit and finalize, and “complete” means AI making the complete product with little to no edit after. Across task categories, respondents most often used AI to assist with work (red), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (blue) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 3C and interactive visualized on [https://yukikonoda.github.io/ai-survey](https://yukikonoda.github.io/ai-survey).  
+We conducted a survey to examine how AI is used across seven types of tasks: Coding, Research, Brainstorming, Writing/Editing, Teaching & Curriculum, Translation, and Personal use, with responses categorized into three usage types: assist, draft, and complete. “Assist” represents using AI for a specific part of a task; “draft” represents AI making the first draft, which the respondent would edit and finalize, and “complete” means AI making the complete product with little to no edit after. Across task categories, respondents most often used AI to assist with work (blue), such as supporting research, brainstorming, and writing/editing. Drafting with AI and then editing (red) was also common, especially for translation, writing, and personal tasks. Fully completing tasks with AI (green) was far less frequent overall, though translation and personal use cases showed relatively higher adoption of this mode. This pattern indicates that participants primarily view AI as a collaborative aid rather than a tool for full task automation (Figure 3C and interactive visualized on [https://yukikonoda.github.io/ai-survey](https://yukikonoda.github.io/ai-survey).  
 
 ![AI Usage Patterns.](./images/AI_survey_main_figures.002.png)
 Figure 3: AI Usage Patterns.
@@ -149,11 +149,7 @@ Figure 3: AI Usage Patterns.
 ### Successes cases of AI usage
 
 From the 80 success cases reported, several recurring themes emerged:
-Coding and Database Support (21 cases): Participants frequently used AI for generating, debugging, or assisting in coding tasks, as well as database management.
-- Efficiency and Time-Saving (18 cases): Many highlighted that AI accelerated routine tasks and shortened project timelines.
-- Proposal and Document Writing (8 cases): AI was utilized to draft, refine, and structure research proposals and other academic documents.
-- Data Analysis and Curation (8 cases): AI-supported sample curation, dataset preparation, and preliminary analysis tasks.
-- Agreements and Contracts (3 cases): AI facilitated comparison or drafting of agreements, such as Material Transfer Agreements.
+Coding and Database Support (21 cases): Participants frequently used AI for generating, debugging, or assisting in coding tasks, as well as database management. Efficiency and Time-Saving (18 cases): Many highlighted that AI accelerated routine tasks and shortened project timelines. Proposal and Document Writing (8 cases): AI was utilized to draft, refine, and structure research proposals and other academic documents. Data Analysis and Curation (8 cases): AI-supported sample curation, dataset preparation, and preliminary analysis tasks. Agreements and Contracts (3 cases): AI facilitated comparison or drafting of agreements, such as Material Transfer Agreements.
 
 Survey respondents reported diverse success cases of AI usage, with the majority emphasizing assistance in coding/database tasks and efficiency improvements. Other noted benefits included proposal writing, data curation, and support with agreements. Overall, AI shows an undeniable ability to accelerate work and reduce the effort required for technical and administrative tasks.
 
@@ -167,7 +163,7 @@ A proportional analysis of responses further supports this view: when considerin
 Lastly, some issues received consistently low levels of concern across all regions. In particular, the complexity of user interfaces and the interpretability of AI-generated suggestions were rarely identified as primary barriers. This implies that the key challenges to broader AI adoption are perceived to lie in technical reliability rather than usability, regardless of cultural context.
 
 ![ Challenges and Areas for Improvement in AI.](./images/AI_survey_main_figures.003.png)
-Figure 3: Challenges and Areas for Improvement in AI.
+Figure 4: Challenges and Areas for Improvement in AI.
 (A) Overall challenges in AI adoption 
 (B) Challenges stratified by language group
 (C) Requested areas for AI improvement
@@ -199,7 +195,7 @@ Figure 5A shows the distribution of overall satisfaction ratings from respondent
 
 The cross-tabulation in Figure 5B shows clear differences in satisfaction across language groups. Japanese speakers reported the highest satisfaction (mean score 4.03), with the majority rating 4 or 5 and very few low scores. Thai speakers also leaned strongly toward higher ratings, mostly at 4 and 5, though with a smaller sample size (mean score 3.90). In contrast, English speakers showed a wider spread across ratings, with more responses at 3 and fewer at the top end (mean score 3.43). Overall, both Japanese and Thai respondents expressed higher satisfaction compared to English respondents.
 
-Among unsatisfied users, four main areas were identified for improvement in AI tools, with accuracy and reliability standing out as the top concern (36.84 %) (Figure 4C). This is followed by privacy, security, and ethics (23.68 %) and control and customization (19.73%), and usability and efficiency (11.84%). Other issues such as sustainability, reproducibility, energy consumption, and model performance were also mentioned. Overall, the findings highlight that trustworthiness, ethical handling, and user control are the most critical priorities for increasing satisfaction.
+Among unsatisfied users, four main areas were identified for improvement in AI tools, with accuracy and reliability standing out as the top concern (36.84%) (Figure 4C). This is followed by privacy, security, and ethics (23.68%) and control and customization (19.73%), and usability and efficiency (11.84%). Other issues such as sustainability, reproducibility, energy consumption, and model performance were also mentioned. Overall, the findings highlight that trustworthiness, ethical handling, and user control are the most critical priorities for increasing satisfaction.
 
 ![User Satisfaction and Institutional Support.](./images/AI_survey_main_figures.004.png)
 Figure 5: User Satisfaction and Institutional Support.
@@ -224,12 +220,13 @@ Figure 6: Analysis of Institutional Support.
 (D) Types of support provided 
 
 ### Kind of AI support
-Among the different types of support provided by institutions, the respondents indicated access to institutional AI software or platforms (licenses, subscriptions) and access to high-performance computing / GPU resources as the most commonly provided support (respectively 22% and 21.5% of responses). Then, at almost half the number of responses, there is provision of its own self-hosted AI services (11%), guidance on ethical use of AI / AI governance policies (10.5%), training/workshops on AI tools or prompt engineering (10%), funding or grants for AI-related projects (9.5%) and support for integrating AI into research workflows (8.1%). Dedicated AI support staff or help desk also gathered a few responses (4.3%), while financial assistance for AI-trained personnel and usage support / allowance gathered little to none (0.5% each) (Figure 6D).
+Among the different types of support provided by institutions, the respondents indicated access to institutional AI software or platforms (licenses, subscriptions) and access to high-performance computing / GPU resources as the most commonly provided support (22% and 21.5% of responses, respectively). Then, at almost half the number of responses, there is provision of its own self-hosted AI services (11%), guidance on ethical use of AI / AI governance policies (10.5%), training/workshops on AI tools or prompt engineering (10%), funding or grants for AI-related projects (9.5%) and support for integrating AI into research workflows (8.1%). Dedicated AI support staff or help desk also gathered a few responses (4.3%), while financial assistance for AI-trained personnel and usage support / allowance gathered little to none (0.5% each) (Figure 6D).
 
 ### Perceptions of AI-related Harms
 To quantify public concern regarding ethical and societal issues related to AI. A survey of participants assessed the level of concern for five distinct areas: misinformation/hallucinations, bias in algorithms, data privacy/security, environment impact, and intellectual property/ownership. Respondents rated their concern on a scale from low (1) to high (5). A primary finding is the high level of concern regarding misinformation/hallucinations (mean score 4.19). This issue garnered the highest percentage of very concerned responses, with a majority of participants indicating a high level of concern (Scores 4-5, 52%). This suggests a prominent public apprehension about the potential for AI to generate and spread false or misleading information. Data privacy/security (mean score 3.45), intellectual property ownership (mean score 3.33), bias in algorithms (mean score 3.24) also emerged as areas of public concern. All three categories show a substantial proportion of participants rating their concern at levels 4 (59% and 42%, respectively). This indicates a strong public awareness about how personal data is used, the potential for discriminatory outcomes from AI systems, and the risks surrounding ownership and control of intellectual property generated or influenced by AI. Conversely, environment impact registered comparatively lower levels of concern (mean score 2.80. This suggests that while these are recognized as potential problems, they are not as predominantly at the forefront of public consciousness as the other four areas (Figure 7).
 
-![Heatmap of participant concerns regarding AI usage. This illustrates the distribution of concern levels among survey participants across five key areas related to AI usage. The concern level was rated on a scale from 1 to 5, and the color intensity corresponds to the number of participants for each score.](./images/Fig21-AI-harms.png)
+![Heatmap of participant concerns regarding AI usage.](./images/Fig21-AI-harms.png)
+Figure 7. Heatmap of participant concerns regarding AI usage. This illustrates the distribution of concern levels among survey participants across five key areas related to AI usage. The concern level was rated on a scale from 1 to 5, and the color intensity corresponds to the number of participants for each score.
 
 ### Additional comments
 There are over 20 free-text “final thoughts”/optional comments responses provided. Five participants expressed appreciation for the survey itself, highlighting interest and enthusiasm for the topic. These responses indicate a positive reception and engagement with the study.
